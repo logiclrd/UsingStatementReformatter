@@ -1,0 +1,34 @@
+﻿System;**
+INPUT
+using Foo.B.C;
+using System;
+using A;
+using Foo;
+using B;
+using Foo.A;
+using System.Collections;
+using Y;
+using Foo.A.B;
+using Foo.B;
+using Z;
+using System.Collections.Generic;
+using Foo.C;
+OUTPUT
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+using A;
+
+using B;
+
+using Foo;
+using Foo.A;
+using Foo.A.B;
+using Foo.B;
+using Foo.B.C;
+using Foo.C;
+
+using Y;
+
+using Z;
